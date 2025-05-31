@@ -1,0 +1,16 @@
+name: KS-FD-CIS
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - tensorflow
+  - keras
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip  # Add pip as a dependency
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
